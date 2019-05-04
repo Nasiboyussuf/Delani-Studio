@@ -4,5 +4,41 @@
     background-repeat: no-repeat;
     height:100vh;
     text-align:center;
-    padding-top:40vh;
+    padding-top:20vh;
+    color: white;;
+}
+#about{
+    background-color: white;
+    text-align: center;
+}
+#services{
+    background-image: url('./assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+#pp {
+    /* display:flex;
+    justify-content: around;
+    flex-wrap:wrap; */
+}
+#pp h2{
+    width: 100%;
+    height: auto;
+}
+#pp img{
+    width: 100%;
+}
+#pp div{
+    width: 24%;
+    margin: 10px 0;
+}
+
+#do{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.icons div{
+    margin-top: ;
 }
