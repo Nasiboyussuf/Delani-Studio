@@ -38,7 +38,8 @@
     display: flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+    text-align: center;
 }
-.icons div{
-    margin-top: ;
+#mouse{
+margin-top:18% ;
 }
