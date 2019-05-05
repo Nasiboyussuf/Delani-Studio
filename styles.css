@@ -43,3 +43,9 @@
 #mouse{
 margin-top:18% ;
 }
+#contact{
+    background-image: url('./assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
