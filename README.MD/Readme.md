@@ -20,7 +20,7 @@ It is a very simple project
 
 
 Link to the app:
-[click me to open licence](https://github.com/Nasiboyussuf/Delani-Studio/blob/master/IP3-master/LICENSE)
+[click me to go to the live site](https://github.com/Nasiboyussuf/Delani-Studio.git)
 
 License:
-Copyright © 2019; Nasiboyussuf.Inc. MIT LICENSE
+Copyright © 2019; Nasiboyussuf.Inc. [MIT LICENSE](https://github.com/Nasiboyussuf/Delani-Studio/blob/master/IP3-master/LICENSE)
