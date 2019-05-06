@@ -31,9 +31,6 @@
 }
 
 #do{
-    /* display: flex; */
-    /* justify-content:space-evenly;
-    flex-wrap:wrap; */
     text-align: center;
 }
 #mouse{
@@ -54,11 +51,22 @@ buttton{
     transition: width 0.4s ease-in-out;
     margin:20px 50px;
 }
-mesg input{
+#mesg {
     background-color: transparent;
 }
 .tail{
     text-align:center;
 }
 
+.hide2, .hide1, .hide3 {
+    display:none;
+
+}
+.njoro{
+    text-align:center;
+}
+footer{
+    text-align: center;
+    margin-top: 2%;
+}
 
