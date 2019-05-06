@@ -48,12 +48,17 @@ margin-top:18% ;
     background-size: cover;
     background-repeat: no-repeat;
 }
-buttton
+buttton{
+
+    background-color: white;
+}
 .form{
     width:21vw;
     background-color: transparent;
+    transi;tion: width 0.4s ease-in-out
 }
-mesg{
+mesg input{
     background-color: transparent;
 }
+
 
