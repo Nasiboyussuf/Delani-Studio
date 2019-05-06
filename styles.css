@@ -17,11 +17,7 @@
     color:white;
     text-align:center;
 }
-#pp {
-    /* display:flex;
-    justify-content: around;
-    flex-wrap:wrap; */
-}
+
 #pp h2{
     width: 100%;
     height: auto;
@@ -34,10 +30,10 @@
     margin: 10px 0;
 }
 
-.row{
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
+#do{
+    /* display: flex; */
+    /* justify-content:space-evenly;
+    flex-wrap:wrap; */
     text-align: center;
 }
 #mouse{
@@ -55,7 +51,7 @@ buttton{
 .form{
     width:21vw;
     background-color: transparent;
-    transi;tion: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
     margin:20px 50px;
 }
 mesg input{
