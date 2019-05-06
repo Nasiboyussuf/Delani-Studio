@@ -6,7 +6,7 @@
 
 ## Description:
 This is a landing page for a studio called Delani.
-It is a very simple project
+It allows the user to receive message through a pop up after inputting their contacts and message telling them their message has been received and thanking them.
 ## Technologies used:
 * HTML
 * Javascript
