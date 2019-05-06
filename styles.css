@@ -34,7 +34,7 @@
     margin: 10px 0;
 }
 
-#do{
+.row{
     display: flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
@@ -55,10 +55,14 @@ buttton{
 .form{
     width:21vw;
     background-color: transparent;
-    transi;tion: width 0.4s ease-in-out
+    transi;tion: width 0.4s ease-in-out;
+    margin:20px 50px;
 }
 mesg input{
     background-color: transparent;
+}
+.tail{
+    text-align:center;
 }
 
 
