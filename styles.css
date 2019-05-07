@@ -17,6 +17,20 @@
     color:white;
     text-align:center;
 }
+.opacity{
+    opacity:0.7;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 25px;
+}
+#trialp{
+    color: white;
+    display:none;
+}
+
+#trial{
+    background-image:url(./assets/portfolio/work3.jpg);
+}
 
 #pp h2{
     width: 100%;
@@ -41,7 +55,7 @@ margin-top:18% ;
     background-size: cover;
     background-repeat: no-repeat;
 }
-buttton{
+button{
 
     background-color: white;
 }
@@ -49,7 +63,7 @@ buttton{
     width:21vw;
     background-color: transparent;
     transition: width 0.4s ease-in-out;
-    margin:20px 50px;
+    margin:20px 10px;
 }
 #mesg {
     background-color: transparent;

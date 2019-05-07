@@ -12,8 +12,16 @@ $(".clickable1").click(function(){
     $(".hide3").slideToggle(1200);
     $(".show3").slideToggle(1500);
   });
-  $("button").click(function( event){
+  $("#myForm").submit(function( event){
     event.preventDefault();
-    var user = document.getElementById('input1').value;
-    alert(user + "we have received your message.Thanks for communicating.");
+    var user = $('#input1').val();
+    alert(`${user} we have received your message.Thanks for communicating.`);
+  });
+  $("#trial").on('mouseover',function(){
+    $("#trial").addClass("opacity");
+    $("#trialp").show();
+  });
+  $("#trial").on('mouseout',function(){
+    $("#trial").removeClass("opacity");
+    $("#trialp").hide();
   });
