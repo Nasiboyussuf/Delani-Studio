@@ -25,3 +25,28 @@ $(".clickable1").click(function(){
     $("#trial").removeClass("opacity");
     $("#trialp").hide();
   });
+
+  $("#trial1").on('mouseover',function(){
+    $("#trial1").addClass("opacity");
+    $("#trialp").show();
+  });
+  $("#trial1").on('mouseout',function(){
+    $("#trial1").removeClass("opacity");
+    $("#trialp").hide();
+  });
+  $("#trial2").on('mouseover',function(){
+    $("#trial2").addClass("opacity");
+    $("#trialp").show();
+  });
+  $("#trial2").on('mouseout',function(){
+    $("#trial2").removeClass("opacity");
+    $("#trialp").hide();
+  });
+  $("#trial3").on('mouseover',function(){
+    $("#trial3").addClass("opacity");
+    $("#trialp").show();
+  });
+  $("#trial3").on('mouseout',function(){
+    $("#trial3").removeClass("opacity");
+    $("#trialp").hide();
+  });

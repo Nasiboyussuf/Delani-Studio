@@ -1,3 +1,13 @@
+@media only screen and(max-width:900px){
+    #input2{
+        margin-left: 0%;
+    }
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
 #home{
     background-image: url('./assets/backgrounds/h_img.jpg');
     background-size: cover;
@@ -5,17 +15,26 @@
     height:100vh;
     text-align:center;
     padding-top:20vh;
-    color: white;;
+    color: white;
 }
 #about{
     background-color: white;
     text-align: center;
+    font-weight:bold;
+}
+#about h2{
+    padding-top: 3%;
 }
 #services{
     background-image: url('./assets/backgrounds/s_image.jpg');
     background-size: cover;
     color:white;
     text-align:center;
+    letter-spacing: 1px;
+
+}
+#services h2{
+    padding-top:1.5%;
 }
 .opacity{
     opacity:0.7;
@@ -26,10 +45,25 @@
 #trialp{
     color: white;
     display:none;
+
+}
+hide1,hide2,hide3{
+    font-family: 'Sofia', cursive;
+
 }
 
 #trial{
-    background-image:url(./assets/portfolio/work3.jpg);
+    background-image:url('./assets/portfolio/work3.jpg');
+}
+#trial1{
+   background-image: url('./assets/portfolio/work4.jpg');
+
+}
+#trial2{
+    background-image: url('./assets/portfolio/work2.jpg');
+}
+#trial3{
+    background-image: url('./assets/portfolio/work1.jpg');
 }
 
 #pp h2{
@@ -60,11 +94,18 @@ button{
     background-color: white;
 }
 .form{
-    width:21vw;
     background-color: transparent;
     transition: width 0.4s ease-in-out;
     margin:20px 10px;
 }
+#myForm{
+    width: 70%;
+    margin-left: 20%;
+}
+#input2{
+    margin-left: -21%;
+}
+
 #mesg {
     background-color: transparent;
 }
@@ -74,6 +115,9 @@ button{
 
 .hide2, .hide1, .hide3 {
     display:none;
+    font-family: 'Sofia';
+    font-size:20px;
+
 
 }
 .njoro{

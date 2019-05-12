@@ -7,6 +7,9 @@
     <title>DELANI STUDIO</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Noto+Serif|Sofia" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,7 +19,7 @@
             <h1>WELCOME <br>TO DELANI STUDIO</h1>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             <div id="mouse">
-                <img src="./assets/mouse_click.png" alt="">
+                <a href="#about"><img src="./assets/mouse_click.png" alt=""></a>
             </div>
         </div>
         <div id="about">
@@ -86,14 +89,15 @@
         </div>
         <div id="pp" class="container d-flex flex-wrap justify-content-around">
             <h2 class="text-center">PORTFOLIO</h2>
-            <div>
-                <img src="./assets/portfolio/work4.jpg" alt="">
+            <div id="trial1">
+               <p id="trialp">Project1</p>
+                
             </div>
             <div id="trial">
                 <p id="trialp">Mighty Ontario</p>
             </div>
-            <div>
-                <img src="./assets/portfolio/work2.jpg" alt="">
+            <div id="trial2">
+                <p id="trialp">Project3</p>
             </div>
             <div>
                 <img src="./assets/portfolio/work1.jpg" alt="">
@@ -119,16 +123,19 @@
             <div class="row d-flex justify-content-center">
                 <form id="myForm" class="form-row mb-4" >
                     <!-- first input form -->
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <input id="input1" type="text" name="Name" placeholder="Name" class="form control">
                     </div>
                     <!-- second input form -->
-                    <div class="col-md-6">
-                        <input type="email" name="Email" placeholder="Email" class="form control">
-                        <textarea name="message" id="mesg" cols="60" rows="10"
-                            placeholder="Your message here"></textarea>
-                            <button type="submit">Send</button>
+                    <div class="col-lg-6">
+                        <input id="input2" type="email" name="Email" placeholder="Email" class="form control">
                     </div>
+                    <div class="col-lg-12">
+                            <textarea name="message" id="mesg" cols="60" rows="10"
+                            placeholder="Your message here"></textarea>
+                           
+                    </div>
+                     <button type="submit" class="btn btn-primary">Send</button>
                 </form>
             </div>
             
